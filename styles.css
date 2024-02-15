@@ -50,6 +50,40 @@ img {
     flex: 2;
 }
 
-.column-two: {
+.column-two {
     flex: 1;
+}
+
+.btn {
+    background-color: #ff6464;
+    color: #ffffff;
+    font-size: 1,25em;
+    border: none;
+}
+
+.container-posts {
+    background-color: #EDF7FA;
+}
+.posts-nav {
+    display: flex;
+}
+
+.box-left,
+.box-right {
+    flex: 1;
+}
+
+.box-right {
+    text-align: end;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.post {
+    width: 418px;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
