@@ -2,6 +2,7 @@ body {
     font-family: Heebo, sans-serif; 
     margin: 0 auto;
     width: 1152px;
+    box-sizing: border-box;
     
 }
 
@@ -34,16 +35,25 @@ img {
     
 }
 
-.head {
+.container-head,
+.posts-nav,
+.works {
     display: flex;
-    width: 90%;
-    max-width: 900px;
+    justify-content: space-around;
+    padding: 0 5rem 0 5rem;
+    
+}
+
+.container-head {
+    padding-bottom: 1rem;
 }
 
 .portfolio-picture { 
     border-radius: 50%;
     width: 245px;
     height: 245px;
+    margin-left: auto;
+
 }
 
 .column-one {
@@ -52,24 +62,28 @@ img {
 
 .column-two {
     flex: 1;
+    }
+
+.paragraph-one {
+    margin-right: 4rem;
 }
 
 .btn {
     background-color: #ff6464;
     color: #ffffff;
-    font-size: 1,25em;
+    font-size: 1.25rem;
     border: none;
+    padding: 0.5em;
 }
 
 .container-posts {
     background-color: #EDF7FA;
 }
-.posts-nav {
-    display: flex;
-}
+
 
 .box-left,
 .box-right {
+    padding-top: 1rem;
     flex: 1;
 }
 
@@ -79,11 +93,38 @@ img {
 
 .posts {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+    padding: 2rem 5rem 2rem 5rem;
 }
 .post {
-    width: 418px;
+    
     border-radius: 4px;
     background-color: #ffffff;
+    padding: 3rem;
+}
+
+.post-left {
+    margin-right: 0.5rem;
+}
+.post-right {
+    margin-left: 0.5rem;
+}
+
+.featured {
+    margin-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.works {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.works span {
+    background-color: #142850;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0.2rem;
 }
