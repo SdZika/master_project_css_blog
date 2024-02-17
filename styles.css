@@ -1,9 +1,10 @@
 body {
-    font-family: Heebo, sans-serif; 
+    font-family: 'Heebo', sans-serif; 
     margin: 0 auto;
     width: 1152px;
     box-sizing: border-box;
-    
+    color: #21243D;
+
 }
 
 nav ul {
@@ -22,7 +23,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #000000;
+    color: inherit;
 }
 
 nav a:hover {
@@ -36,8 +37,7 @@ img {
 }
 
 .container-head,
-.posts-nav,
-.works {
+.posts-nav {
     display: flex;
     justify-content: space-around;
     padding: 0 5rem 0 5rem;
@@ -95,6 +95,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem 2rem 5rem;
+    margin-bottom: 1rem;
 }
 .post {
     
@@ -113,11 +114,15 @@ img {
 .featured {
     margin-left: 5rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 .works {
     border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5rem 0 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .works span {
@@ -126,5 +131,21 @@ img {
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: 900;
-    padding: 0.2rem;
+    padding: 0.1rem 0.7rem 0.2rem 0.7rem;
+}
+
+.works-img {
+    border-radius: 6px;
+}
+
+.works-padding {
+    padding-left: 1rem;
+}
+
+.icons {
+    text-align: center;
+}
+
+i {
+    margin: 7rem 1rem 1rem 1rem;
 }
