@@ -1,10 +1,14 @@
 body {
     font-family: 'Heebo', sans-serif; 
     margin: 0 auto;
-    width: 1152px;
+    max-width: 1152px;
     box-sizing: border-box;
     color: #21243D;
 
+}
+
+header {
+    margin-bottom: 2rem;
 }
 
 nav ul {
@@ -44,6 +48,10 @@ img {
     
 }
 
+.container-head h1 {
+    font-weight: 900;
+}
+
 .container-head {
     padding-bottom: 1rem;
 }
@@ -53,6 +61,7 @@ img {
     width: 245px;
     height: 245px;
     margin-left: auto;
+    box-shadow: -10px 10px #EDF7FA;
 
 }
 
@@ -94,7 +103,7 @@ img {
 .posts {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 1rem 5rem 2rem 5rem;
     margin-bottom: 1rem;
 }
 .post {
@@ -125,13 +134,18 @@ img {
     padding-bottom: 2rem;
 }
 
-.works span {
+.span-left {
     background-color: #142850;
     border-radius: 1rem;
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: 900;
     padding: 0.1rem 0.7rem 0.2rem 0.7rem;
+}
+
+.span-right {
+    color: #8695A4;
+    margin-left: 1rem;
 }
 
 .works-img {
