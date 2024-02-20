@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 .burger-nav img {
-    display:none;
+    display: none;
    }
 
 @media screen and (max-width: 600px) {
@@ -47,6 +47,7 @@ nav a:hover {
         margin-left: auto;
         width:40px;
         height:40px;
+        margin-right: 1rem;
       }
 }
 
@@ -61,7 +62,6 @@ img {
     display: flex;
     justify-content: space-around;
     padding: 0 5rem 0 5rem;
-    
 }
 
 .container-head h1 {
@@ -101,6 +101,31 @@ img {
     padding: 0.5em;
 }
 
+
+@media screen and (max-width: 600px) {
+    .container-head,
+    .posts-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .container-posts .box-right {
+    display: none;
+    }
+    .column-one {
+        order: 2;
+    }
+    .portfolio-picture {
+        margin-right: auto;
+    }
+    .paragraph-one {
+        margin: auto;
+    }
+    .btn {
+        margin-top: 2rem;
+    }
+}
+
+
 .container-posts {
     background-color: #EDF7FA;
 }
@@ -114,6 +139,7 @@ img {
 
 .box-right {
     text-align: end;
+    color: #00A8CC;
 }
 
 .posts {
@@ -127,6 +153,7 @@ img {
     border-radius: 4px;
     background-color: #ffffff;
     padding: 3rem;
+    
 }
 
 .post-left {
@@ -135,6 +162,19 @@ img {
 .post-right {
     margin-left: 0.5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .posts {
+        flex-direction: column;
+        gap: 1rem;  
+    }
+    .post-left,
+    .post-right {
+        margin: auto;
+    }
+    
+}
+
 
 .featured {
     margin-left: 5rem;
@@ -170,6 +210,12 @@ img {
 
 .works-padding {
     padding-left: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    .works {
+        flex-direction: column;
+    }
 }
 
 .icons {
