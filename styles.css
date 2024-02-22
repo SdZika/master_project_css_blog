@@ -36,6 +36,10 @@ nav a:hover {
     display: none;
    }
 
+.current {
+    color: #FF6464;
+}
+
 @media screen and (max-width: 600px) {
     nav ul {
         display: none; 
@@ -122,6 +126,10 @@ img {
 
 .container-posts {
     background-color: #EDF7FA;
+}
+
+.blog {
+    background-color: #ffffff;
 }
 
 .box-left,
