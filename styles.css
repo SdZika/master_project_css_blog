@@ -128,7 +128,10 @@ img {
     background-color: #EDF7FA;
 }
 
-.blogs {
+/* blog page css */
+
+.blogs,
+.work-detail {
     max-width: 850px;
     min-width: 339px;
     background-color: #ffffff;
@@ -141,6 +144,21 @@ img {
     border-bottom: 1px solid #E0E0E0;
     padding-top: 2rem;
     padding-bottom: 1rem;
+}
+
+/* work_detail page css */
+
+.work-detail img {
+    padding-bottom: 2rem;
+}
+
+.red-num {
+    background-color:#FF7C7C;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding: 0.1rem 0.7rem 0.2rem 0.7rem;
 }
 
 .box-left,
