@@ -128,8 +128,19 @@ img {
     background-color: #EDF7FA;
 }
 
-.blog {
+.blogs {
+    max-width: 850px;
+    min-width: 339px;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+}
+
+.blog {
+    border-bottom: 1px solid #E0E0E0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .box-left,
@@ -211,12 +222,19 @@ img {
     padding-left: 1rem;
 }
 
+.desktop-dissapear {
+    display: none;
+   }
+
 @media screen and (max-width: 600px){
     .works {
         flex-direction: column;
     }
     .disappear {
         display: none;
+    }
+    .desktop-dissapear {
+        display: flex;
     }
 }
    
