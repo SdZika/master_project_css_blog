@@ -146,6 +146,10 @@ img {
     padding-bottom: 1rem;
 }
 
+.spoan-blog-left {
+    
+}
+
 @media screen and (max-width: 600px) {
     .blogs,
     .work-detail {
