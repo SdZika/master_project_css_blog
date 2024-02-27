@@ -146,8 +146,8 @@ img {
     padding-bottom: 1rem;
 }
 
-.spoan-blog-left {
-    
+.span-blog-midle {
+    padding-left: 1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -238,6 +238,11 @@ img {
     font-size: 1.2rem;
     font-weight: 900;
     padding: 0.1rem 0.7rem 0.2rem 0.7rem;
+}
+
+.span-midle {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .span-right {
