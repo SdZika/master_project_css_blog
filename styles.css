@@ -80,6 +80,8 @@ img {
     height: 243px;
     margin-left: auto;
     box-shadow: -10px 10px #EDF7FA;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .column-one {
@@ -253,6 +255,7 @@ img {
 
 .works-img {
     border-radius: 6px;
+    height: 100%;
 }
 
 .works-padding {
