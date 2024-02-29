@@ -75,7 +75,8 @@ img {
 
 .portfolio-picture { 
     border-radius: 50%;
-    width: 243px;
+    max-width: none;
+    width: 233px;
     height: 243px;
     margin-left: auto;
     box-shadow: -10px 10px #EDF7FA;
