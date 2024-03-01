@@ -104,6 +104,12 @@ img {
     padding: 0.5em;
 }
 
+@media screen and (max-width: 768px) {
+    .column-one {
+        flex: 1;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .container-head,
     .posts-nav {
@@ -256,6 +262,7 @@ img {
 .works-img {
     border-radius: 6px;
     height: 100%;
+    object-fit: cover;
 }
 
 .works-padding {
@@ -267,11 +274,16 @@ img {
    }
 
 @media screen and (max-width: 600px){
-    .works,
-    .featured {
+    .works {
         flex-direction: column;
         margin: 1rem;
     }
+
+    .featured {
+        flex-direction: column;
+        margin: 1rem 1rem -1rem 1rem;
+    }
+
     .disappear {
         display: none;
     }
