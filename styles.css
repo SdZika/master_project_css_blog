@@ -96,7 +96,7 @@ img {
     margin-right: 4rem;
 }
 
-.btn {
+#btn {
     background-color: #ff6464;
     color: #ffffff;
     font-size: 1.25rem;
@@ -128,7 +128,7 @@ img {
     .paragraph-one {
         margin: auto;
     }
-    .btn {
+    #btn {
         margin-top: 2rem;
     }
 }
